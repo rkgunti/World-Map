@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Guinness World Records</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/map.js"></script>
+</head>
+<body>
+	<div class="container-fluid">
+		<div id="logo-div">
+		<div class="row">
+			<div class="col-sm-12">
+				<div id="caption-div">
+					<img id="caption-image" class="img-rounded"  src="img/logo.jpg" style="margin-left:15%;"></img>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+		   <div class="col-sm-6">
+		      <button id="start-btn" type="button" class="btn btn-success pull-right">Click Here to Start</button>
+		   </div>
+		</div>
+		</div>
+		<div id="image-div">
+		<div class="row">
+		    <span id="name-tag" style="display: none;"></span>
+		    <div class="col-sm-6">
+		      <button id="nextbtn" onclick="changeImage()" type="button" class="btn btn-primary pull-right">Click Here to Next Image</button>
+		    </div>
+			
+		</div>
+		<div id="image-without-name" class="row">
+		    <div class="col-sm-12">
+				<div id="img-div">
+					<img id="country-image" src="" style="width:60%; height:600px;"></img>
+				</div>
+			</div>
+		</div>
+		<div id="image-with-name" class="row">
+			<div class="col-sm-6">
+				<div id="img-div">
+					<img id="country-image-without-name" src="" style="width:100%;"></img>
+				</div>
+			</div>
+			<div class="col-sm-6">
+				<div id="img-name-div">
+					<img id="country-image-with-name" src="" style="width:100%;"></img>
+				</div>
+			</div>
+		</div>
+		</div>
+	</div>
+</body>
+</html>
